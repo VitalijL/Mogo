@@ -1,0 +1,148 @@
+header {
+	overflow: hidden;
+}
+
+.header_back {
+	background-image: url(Header_back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#grad_style {
+	background: linear-gradient(#e98d83, #f0d88a);
+	opacity: 0.93;
+	overflow: hidden;
+}
+
+.center-block-main {
+    opacity: 1;
+    margin: 0 auto;
+    max-width: 990px;
+}
+
+.logo {
+    float: left;
+    margin-top: 28px;
+}
+
+li {
+    list-style-type: none;
+}
+a {
+    .style_main_Text
+&:hover {
+    color: @textColor_a_hover;
+    text-decoration: none;
+}
+}
+
+.menu {
+    margin-top: 25px;
+    float: right;
+li {
+    float: left;
+}
+li a {
+    font-family: @mainFont;
+    color: @textColor_main;
+    font-size: 16px;			
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+    padding: 5px 25px;
+    text-decoration: none;
+&:hover {
+    color: @textColor_a_hover;
+    border-bottom: 3px solid @textColor_a_hover;
+}
+}
+}
+
+.h-style-spec {
+	font-family: @h1Font;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.h1_style {
+	.h-style-spec;
+	opacity: 1;
+	margin: auto;
+	margin-top: 150px;
+	color: @textColor_main;
+	font-size: 72px;
+	font-weight: 400;
+}
+
+.style_main_Text {
+	text-align: center;
+	font-family: @mainFont;
+    text-transform: uppercase;
+	color: @textColor_main;
+}
+
+.h_style {
+	.style_main_Text;
+	opacity: 1;
+	margin-top: 40px;
+    font-size: 150px;
+    line-height: 140px;
+	font-weight: 700;
+}
+
+.spec_line {
+	margin: auto;
+	opacity: 1;
+	margin-top: 70px;
+	width: @hrSize;
+	border-bottom: 3px solid @textColor_main;
+}
+
+.main_button {
+    display: flex;
+    margin: auto;
+    opacity: 1;
+    margin-top: 50px;
+    background-color: fade(@textColor_h, 1%);
+    color: @textColor_main; 
+    border: 3px solid @textColor_main;
+    padding: 20px 60px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    &:hover {
+        color: @textColor_a_hover;
+        border: 3px solid @textColor_a_hover;
+    }
+}
+
+.head_menu_end {
+    margin-top: 155px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.head_menu_end > div {
+    width: 280px;
+    display: block;
+    border-top: 3px solid @textColor_main;
+    padding: 1px 1px;
+}
+
+.head_menu_end a {
+    font-family: @mainFont;
+    color: @textColor_main;
+    font-size: 20px;
+    font-weight: 550;
+    text-transform: uppercase;
+    text-decoration: none;
+&:hover {
+    border-top: 3px solid @lineColor;	
+}
+}
